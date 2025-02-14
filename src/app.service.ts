@@ -19,4 +19,7 @@ export class AppService {
       hobby: 'eat a lot',
     };
   }
+  getGit(): string {
+    return 'test Git and GitHub';
+  }
 }
